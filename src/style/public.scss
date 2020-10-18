@@ -1,0 +1,16 @@
+.index-header-wrap {
+    display: none;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #1b2327;
+    color: #fff;
+}
+@media (max-width:750px){
+    .index-header-wrap{
+        display:block
+    }
+    .common-nav{
+        display:none
+    }
+}

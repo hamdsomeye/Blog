@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1603020637367'); /* IE9 */
+  src: url('iconfont.eot?t=1603020637367#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPAAAsAAAAAB7QAAANzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDHIJxATYCJAMMCwgABCAFhG0HNhu3BlGUDUqW7OeBbavZLMJCbUbIDLWVuw3AiRclh2/yf0dQrZE9u3v3AKAA5Xsu/wpRvcIkDlhF6QgVJeJZR9/SmqbEwqYgy7KqY/QPuQfOp+SGwlSZKTVhULjN55/ehSzNDdTPayfCIxhtpWADzijFAC3D/YPL6a/E5wHlNNbUsSYGGG8NbKxJgaRpgSToDWMXtMT9BNpN68tsH57fQ1lhDgvEnWNpUM6olYbY0CrUFXPLRaZJpTV9SQG+Bt+Pf4yiTFJl5tid2wMT5j8t39wz0rx27CE40xnBFpGxAhTitNK8Lxe5V+S0q+J8c2itCGkqW3MCtiasrT88kiBqZnQnWECexE9Lh51I3CH3qjMyqD1G6wd8myCBJI81c8aYFxQzajqgQBCu3kk+WxSDHHjAl4M7fE6veMlGPF5o+zTo5mqAPq4PQPYt28dVSWekrYTJ54dtqMEJvlyn8bsC6d5ecueqNCR1iIl1wA5bCJtej8sNAUibSFsb6O4Xre0W7eZZtncD5NqjbUyFyy2lA1pWKSghNmDZDiFrpH8SYeC03JtW1IpN44pgIXgwzbrGA1aQxY4QF13FiYbWu3NKYfQ7VoYmFnqEqzbNNKGSNmOri9n+9LVy/AD8snLQQWh5bVEe9EgNcOBjYc2e4abox9Q4rxBDVagiGAZGQQHjUozFYT0TEoKgH8xIgr54orTxXSSLehVKXLK7N4xNbX1hyxb7VCWrOJMGooCmMtLa0tqsEuTMNWydA3ozYMs6QPM6L7/+Y7/xPPaVd9ay+V/uKODHiofBnOZ1RX5Cq0Rnzv/Jq1RA01RwnqnJRRFpZBvW7NW9GhOQySX+Sjz0+xsuH3oH3tBqKIGkxRRkrWbQQlqBSodVqLVag3bLjhZ3GMByorRhyTuA0OsDkm7fIev1iRbSL1SG/UOtN3LQbjfYa3aYC6fqzKQJmahv0DGiUNk6qYaxt2QtfI3TvID8SJw6NpzoGeR9RxQSTzEhXVpTEYWKowAPwWHk+xHGHLlkyNAWiWcj/YSqJw2NKICqLYxoBDEh3QZyGCIh5VUW1cLnbxHLgk/DDSVVxkeEpZz20cTQuAN6JA47ldzKI6kly5QQClJYJIAOgZH4ljuC4upeLmIQQ/YAZ2xmhMqpruLh8tLg/VZBO3O7HClyFPmewmKJs1loIQAA') format('woff2'),
+  url('iconfont.woff?t=1603020637367') format('woff'),
+  url('iconfont.ttf?t=1603020637367') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1603020637367#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ren:before {
+  content: "\e647";
+}
+
+.icon-ziyuan:before {
+  content: "\e639";
+}
+
