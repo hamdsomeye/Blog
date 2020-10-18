@@ -38,9 +38,34 @@
       </div>
     </div>
     <div class="index-header-wrap">
-      <div class="menu-info"><i class="iconfont icon-ziyuan "></i></div>
+      <div class="menu-info" @click="showHeader"><i class="iconfont icon-ziyuan "></i></div>
       <div>login</div>
       <div class="user-info"><i class="iconfont icon-ren "></i></div>
+    </div>
+    <div class="m-header-memu" :class="menu_disabled">
+      <el-menu
+        default-active="1"
+        class="el-menu-vertical-demo"
+        background-color="#ffffff"
+        text-color="#6a6a6a"
+        active-text-color="#ffd04b">
+        <el-menu-item index="1">
+          <i class="el-icon-menu"></i>
+          <span slot="title">首页</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i class="el-icon-menu"></i>
+          <span slot="title">我的工作台</span>
+        </el-menu-item>
+        <el-menu-item index="3">
+          <i class="el-icon-document"></i>
+          <span slot="title">帮助</span>
+        </el-menu-item>
+        <el-menu-item index="4">
+          <i class="el-icon-setting"></i>
+          <span slot="title">退出登录</span>
+        </el-menu-item>
+      </el-menu>
     </div>
   </div>
 </template>
@@ -51,11 +76,19 @@ export default {
     return {
       activeIndex: '1',
       activeIndex2: '1',
+      menu_disabled: 'header-menu-disabled',
     };
   },
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
+    },
+    showHeader() {
+      if (this.menu_disabled === '') {
+        this.menu_disabled = 'header-menu-disabled';
+        return;
+      }
+      this.menu_disabled = '';
     },
   },
 };
@@ -111,6 +144,21 @@ export default {
         right: 30px;
         top: 0;
       }
+    }
+    .m-header-memu{
+      padding: 60px 70px;
+      &>.el-menu{
+        border-right: 0;
+        &>li{
+          border-bottom: 1px solid #f0f1f4;
+          &:hover{
+            background-color: #fff !important;
+          }
+        }
+      }
+    }
+    .header-menu-disabled{
+      display: none;
     }
   }
 </style>
